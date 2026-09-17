@@ -237,18 +237,18 @@ read_modules:
   - auth
 - dir: C:/Users/hocean/temp/ice-cream-dataops/modules/bootcamp/ice_cream_api
   resource_directories:
-  - data_models
-  - extraction_pipelines
   - raw
   - workflows
+  - extraction_pipelines
   - transformations
-  - functions
-  - hosted_extractors
-  - auth
   - data_sets
+  - hosted_extractors
+  - functions
+  - auth
+  - data_models
 - dir: C:/Users/hocean/temp/ice-cream-dataops/modules/bootcamp/use_cases/oee
   resource_directories:
-  - functions
   - data_sets
-  - data_models
+  - functions
   - auth
+  - data_models
